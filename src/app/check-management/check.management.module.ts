@@ -8,11 +8,12 @@ import {CheckManagementComponent} from './check-management.component';
 import { CheckOverviewComponent } from './check-overview/check-overview.component'
 import { CheckManagementRouting } from './check.management.routing'
 import { NgZorroAntdModule } from 'ng-zorro-antd';
-
+import { EChartOptionDirective1 } from './echart-option.directive';
 @NgModule({
   declarations: [
     CheckManagementComponent,
-    CheckOverviewComponent
+    CheckOverviewComponent,
+    EChartOptionDirective1
   ],
   imports: [
     CommonModule,
